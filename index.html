@@ -18,6 +18,7 @@
 
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,12 +26,12 @@
  		<div class="container">
  			<div class="row">
  				<div class="col-xl-7">
- 					<img class="header-img" src="img/imac.png" alt="Монитор">
+ 					<img class="header-img wow fadeInLeftBig" src="img/imac.png" alt="Монитор">
  				</div>
  				<div class="col-xl-5">
- 					<p class="header-pretitle">Веб-разработчик</p>
- 					<h1 class="header-title">Мубориз Мирзоев</h1>
- 					<p class="header-subtitle">Верстка на HTML/CSS <br>
+ 					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+ 					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Мубориз Мирзоев</h1>
+ 					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.4s">Верстка на HTML/CSS <br>
 					Разработка сайтов под ключ</p>
 					<div class="header-botton-block">
 						<a href="https://vk.me/muba95" class="header-button">Связаться</a>
@@ -43,7 +44,7 @@
 
  	<section class="portfolio">
  		<div class="container">
- 			<div class="portfolio-block">
+ 			<div class="portfolio-block wow fadeIn">
 				<h2 class="portfolio-title">Портфолио</h2>
 				<p class="portfolio-subtitle">Мои работы</p>
 				<div class="row">
@@ -81,10 +82,10 @@
 				<div class="col-md-4">
 					<div class="footer-social">
 						<p>Подпишитесь:</p>
-						<img class="footer-fc" src="img/social/facebook-logo.png" alt="">
-						<img class="footer-vk" src="img/social/vk-logo.png" alt="">
-						<img class="footer-tl" src="img/social/telegram-logo.png" alt="">
-						<img class="footer-youtube" src="img/social/youtube-logo.png" alt="">
+						<img class="wow bounceInUp" data-wow-delay="0.1s" src="img/social/facebook-logo.png" alt="">
+						<img class="wow bounceInUp" data-wow-delay="0.2s" src="img/social/vk-logo.png" alt="">
+						<img class="wow bounceInUp" data-wow-delay="0.2s" src="img/social/telegram-logo.png" alt="">
+						<img class="wow bounceInUp" data-wow-delay="0.1s" src="img/social/youtube-logo.png" alt="">
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -100,5 +101,9 @@
 		
 	</footer>
 
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
