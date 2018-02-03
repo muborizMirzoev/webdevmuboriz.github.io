@@ -27,6 +27,8 @@ header{
 	margin-top: 20px;
 }
 .header-button {
+	display: inline-block;
+	text-decoration: none;
 	margin-top: 33px;
 	font-weight: 700;
 	color: #072b6f;
@@ -139,7 +141,8 @@ header{
  	line-height: 39.8px;
 
  }
- footer .footer-feedback button {
+ footer .footer-feedback .footer-button {
+ 	text-decoration: none;
  	display: inline-block;
  	border: 1px	solid #ffffff;
  	background-color: transparent;
