@@ -1,1 +1,1 @@
-# webdevmuboriz.github.io
+# muborizMirzoev.github.io
