@@ -1,1 +1,1 @@
-# muborizMirzoev.github.io
+# [https://muborizmirzoev.github.io/webdevmuboriz.github.io/]
